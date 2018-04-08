@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class ExportView : Form
     {
-        public Form1()
+        public ExportView()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        internal void SetData(string data)
+        {
+            txtExportData.Text = data;
         }
     }
 }

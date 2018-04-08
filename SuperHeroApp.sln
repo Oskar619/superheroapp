@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{C9A4ACDE-C4E3-48A6-BA89-2563201354BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroAppUI", "WindowsFormsApp1\SuperHeroAppUI.csproj", "{C9A4ACDE-C4E3-48A6-BA89-2563201354BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseSuperHeroLib", "SuperHeroBase\BaseSuperHeroLib.csproj", "{D875DE4B-155A-4116-A625-A9B89A28BEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroAppRepo", "SuperHeroAppRepo\SuperHeroAppRepo.csproj", "{032810F1-7BC7-40D7-BA3E-4848DC21861B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C9A4ACDE-C4E3-48A6-BA89-2563201354BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A4ACDE-C4E3-48A6-BA89-2563201354BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A4ACDE-C4E3-48A6-BA89-2563201354BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D875DE4B-155A-4116-A625-A9B89A28BEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D875DE4B-155A-4116-A625-A9B89A28BEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D875DE4B-155A-4116-A625-A9B89A28BEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D875DE4B-155A-4116-A625-A9B89A28BEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032810F1-7BC7-40D7-BA3E-4848DC21861B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032810F1-7BC7-40D7-BA3E-4848DC21861B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032810F1-7BC7-40D7-BA3E-4848DC21861B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032810F1-7BC7-40D7-BA3E-4848DC21861B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
