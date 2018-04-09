@@ -1,7 +1,6 @@
 ﻿using SQLite.CodeFirst;
 using SuperHeroAppRepo.Entities;
 using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Data.SQLite;
 
 namespace SuperHeroAppRepo
